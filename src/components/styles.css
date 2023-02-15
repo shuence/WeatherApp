@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: linear-gradient(300deg, #97f1e5, #bfc0c0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0;
+}
+
+h1{
+    text-align: center;
+}
+
+input{
+    background-color: rgb(182, 210, 226);
+    border: black;
+    border-radius: 25px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    font-family: inherit;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem 0;
+    width: 100%;
+    min-width: 300px;
+}
+
+input:focus{
+    outline: none;
+}
+
+button{
+    background-color: rgb(182, 210, 226);
+    border: black;
+    border-radius: 25px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    font-family: inherit;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem 0;
+    width: 100%;
+    min-width: 300px;
+}
+
+.weather{
+    background-color: rgb(182, 210, 226);
+    border-radius: 25px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    padding: 1rem;
+    width: 100%;
+    min-width: 300px;
+    text-align: center;
+}
+
+.weather h2{
+    display: flex;
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+    align-items: center;
+}
